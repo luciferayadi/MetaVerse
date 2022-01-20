@@ -1,0 +1,130 @@
+/*propriétes pour la forme de case */
+form{
+    position: relative;
+    border: 1px solid transparent ;
+    height: 500px;
+    width: 400px;
+    float: right;
+    margin-right: 150px;
+    margin-top: -350px;
+    background-color:  rgba(155, 155, 155, 0.411);
+    border-radius: 15px;
+    opacity: 1;
+}
+/* propriétes pour logo d´identifiant */
+.avatar{      
+    width: 100%;
+    border-radius: 47%;
+    text-align: center;
+    font-family:  Copperplate Gothic Light;
+    margin-bottom: 30px;
+    text-shadow: transparent;
+    
+}
+.img{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -35px;
+    font-family: Copperplate Gothic Light;
+}
+.omega{
+    text-align: center;
+    margin: 24px 0 12px 0;
+    margin-bottom: 30px;
+}
+/* propriétes pour email et le password*/
+.verse{
+    border-radius: 5px;
+    padding: 15px;
+}
+/*propriétes pour le button de login */
+button.ser {
+    height: 45px;
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-left: 35%;
+    background-color: #00006698 ;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+button:hover{
+    color: rgb(0, 0, 0);
+    background:rgb(255, 255, 255);
+    opacity: 0.5;
+}
+/*  */
+a.psw {
+    float: left;
+    margin-right: 20px;
+    color: #1976D2 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* propriétes pour l´entête */
+header{
+    background-color: #b4b4b4;
+    color: rgb(255, 255, 255);
+    font-family: Copperplate Gothic Light;
+    font-weight: bold;
+    text-indent: 15px;
+    font-size: 125%;
+    height: 150px;
+}
+input {
+    height: 42px;
+    width: 370px;
+    border-start-end-radius: 1px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid #01015d7a;
+    text-indent: 15px;
+}
+/* propriétes pour la page web */    
+body {
+    background: url(meta.jpg);
+    position: relative;
+}
+/* propriétes pour forgot password */
+span.psw {
+    color: black;
+    float: right;
+}
+label {
+    text-align: center;
+}
+.head {
+    margin-top: 1px;
+    text-align: center;
+    color: #000033;
+    font-size: 50px;
+}
+p.luc{
+    margin-top: 50px;
+    align-self: center;
+}
+/* propriétes pour le nom et la presentation de la page */
+h1.h1{
+    color: white;
+    lighting-color: white;
+    margin-left: 80px;   
+    position:sticky ;
+}
+h3.h3{
+    color: white ;
+    lighting-color: white;
+    margin-left: 80px; 
+    padding: -30px;
+    padding-block-end: 200px;
+    position: sticky;
+}
+/* propriétes pour Sign On */
+.regi{
+    height: 22px;
+    width: 80px;
+    border: 1px solid transparent;
+    margin-left: 20px;
+    color: #1976D2 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
